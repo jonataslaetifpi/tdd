@@ -28,7 +28,7 @@ def fatorial(n):
 def somatorioAteN(n):
     s = 1
     i = 1
-    while(i < n):
+    while(i <= n):
         s += (1/(fatorial(i)))
         i += 1
     return s
